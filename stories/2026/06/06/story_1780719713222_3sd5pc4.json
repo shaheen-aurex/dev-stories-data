@@ -1,0 +1,31 @@
+{
+  "id": "story_1780719713222_3sd5pc4",
+  "authorGitHubId": "291201492",
+  "authorUsername": "shaheen-aurex",
+  "authorName": "shaheen-aurex",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/291201492?v=4",
+  "timestamp": 1780719713222,
+  "expiresAt": 1780806113222,
+  "content": {
+    "type": "code",
+    "code": {
+      "content": "            # Filter dynamic fields matching the specified fields to update\r\n            dynamic_fields = DynamicFields.objects.filter(\r\n                content_type_id=content_type,\r\n                module_id=module,\r\n                field_name__in=fields_to_update,\r\n            )",
+      "language": "python",
+      "filename": "action_overview_field_update.py"
+    }
+  },
+  "visibility": "public",
+  "tags": [
+    "python"
+  ],
+  "viewCount": 0,
+  "viewers": [],
+  "reactions": {},
+  "metadata": {
+    "createdWith": "0.1.7",
+    "projectContext": {
+      "workspaceName": "risk (Workspace) [WSL: ubuntu-24.04]",
+      "activeFile": "/home/shaheen/Projects/smart-audit/one_time_scripts/management/commands/action_overview_field_update.py"
+    }
+  }
+}
